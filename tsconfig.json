@@ -22,5 +22,12 @@
   },
   "include": [
     "src"
+  ],
+  // コンパイルする対象から外すファイル
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "functions"
   ]
 }
